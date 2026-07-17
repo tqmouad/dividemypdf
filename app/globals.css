@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #2563eb;
+  --bg-secondary: #f8fafc;
+  --text: #111827;
+  --text-secondary: #6b7280;
+  --border: #e5e7eb;
+  --success: #22c55e;
+  --error: #ef4444;
+  --warning: #f59e0b;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-text: var(--text);
+  --color-text-secondary: var(--text-secondary);
+  --color-border: var(--border);
+  --color-success: var(--success);
+  --color-error: var(--error);
+  --color-warning: var(--warning);
+  --font-sans: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { background: #ffffff; color: var(--text); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.focus-ring { outline: none; }
+.focus-ring:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
