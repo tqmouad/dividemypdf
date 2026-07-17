@@ -41,7 +41,7 @@ export function getActiveLimits(): PlanLimits {
 export const APP_CONFIG = {
   name: "DivideMyPDF",
   tagline: "Split PDF files instantly. Secure. Fast. Free.",
-  domain: "https://dividemypdf.com",
+  domain: "https://dividemypdf.online",
   supportEmail: "hello@dividemypdf.com",
   accentColor: "#2563EB",
 } as const;
