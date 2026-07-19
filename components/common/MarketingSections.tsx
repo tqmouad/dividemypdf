@@ -95,7 +95,7 @@ export function Features() {
   );
 }
 
-const FAQS = [
+export const FAQS = [
   { q: "How does DivideMyPDF work?", a: "It splits your PDF into individual one-page PDF files entirely inside your browser." },
   { q: "Is it free?", a: "Yes, splitting PDFs is completely free, with no hidden costs." },
   { q: "Do you store my files?", a: "No. Files are processed locally in your browser and are never uploaded or stored." },

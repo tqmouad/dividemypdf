@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { SplitTool } from "@/components/split/SplitTool";
 import { HowItWorks, Benefits, FAQ, ToolsGrid, SeoContent } from "@/components/common/MarketingSections";
+import { JsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
   title: "Split PDF Into Individual Pages Online",
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
 export default function SplitPdfPage() {
   return (
     <>
+    <JsonLd path="/split-pdf" toolName="Split PDF" includeFaq />
       <section className="pt-16 pb-10 text-center">
         <div className="mx-auto max-w-3xl px-6">
           <h1 className="text-5xl font-bold tracking-tight text-text sm:text-6xl">Split PDF Into Individual Pages</h1>
