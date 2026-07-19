@@ -7,7 +7,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(APP_CONFIG.domain),
   title: { default: `Split PDF Online Free | ${APP_CONFIG.name}`, template: `%s | ${APP_CONFIG.name}` },
-  description: "Split PDF into individual pages online for free. Fast, secure, browser-based processing with no uploads or registration.",
+  description: "Split any PDF into individual pages in seconds — 100% free, no sign-up, no software. Your files stay on your device the entire time.",
   openGraph: { siteName: APP_CONFIG.name, type: "website" },
   twitter: { card: "summary_large_image" },
 };
